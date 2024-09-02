@@ -18,4 +18,10 @@ public class LoginBody {
     public String getPassword() {
         return password;
     }
+
+    public void setUsername(String testUser) {
+    }
+
+    public void setPassword(String password) {
+    }
 }

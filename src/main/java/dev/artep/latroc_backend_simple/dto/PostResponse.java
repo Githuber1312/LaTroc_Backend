@@ -12,6 +12,10 @@ public class PostResponse {
     private double price;
     private String category;
 
+    public PostResponse() {
+
+    }
+
     // Getters & Setters
     public Long getId() {
         return id;

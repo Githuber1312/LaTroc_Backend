@@ -16,13 +16,13 @@ import java.util.Date;
 public class JWTService {
 
     @Value("${jwt.algorithm.key}")
-    private String algorithmKey;
+    String algorithmKey;
 
     @Value("${jwt.issuer}")
-    private String issuer;
+    String issuer;
 
     @Value("${jwt.expiryInSeconds}")
-    private int expiryInSeconds;
+    int expiryInSeconds;
 
     private Algorithm algorithm;
     private JWTVerifier verifier;
